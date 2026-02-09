@@ -9,7 +9,3 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Trigger Vercel Deployment
-        run: curl -X POST ""
